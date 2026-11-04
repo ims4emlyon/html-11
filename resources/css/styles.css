@@ -44,52 +44,53 @@ h1 { display: flex ;
 
 article div div {
     display: flex ;
-    justify-content: space-between;
+    justify-content: space-between ; 
 }
 
 .divButton  {
     display: flex ;
-    justify-content: center;
+    justify-content: center ;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    display: flex ;
+    justify-content: center ;
 }
 
 .product img { 
     width: 100%;
-    border-radius: 7px;}
+    border-radius: 7px ;
+}
 
 
 
 section {
     display: flex ;
-    flex-wrap: wrap;
+    flex-wrap: wrap ;
 }
 
 #imgAvatar { 
-    border-radius: 50%; 
+    border-radius: 50% ; 
     padding: 10px;
     
     border: 3px;
-    border-color: red;
+    border-color: red ;
     height: 95px;
 }
 
 #imgAvatar:hover { 
-    opacity: 25%;
+    opacity: 25% ;
 }
 
 #imgLogo { 
-    height: 56px;
+    height: 56px ;
 }
 
 
 #pageNoteFound {
     font-size: 45px;
     color: red ;
-    background-color: black;
+    background-color: black ;
     display: flex ;
     justify-content: center;
     align-items: center;
@@ -146,6 +147,7 @@ article div p {
 article  {
     padding: 9px;
     padding-bottom: 15px ;
+    margin-bottom: 25px ;
     width: 23%;
 }
 
@@ -157,9 +159,4 @@ article:hover  {
     
 }
 
-
-
- html {   
-    height: 100%; 
-} 
 
