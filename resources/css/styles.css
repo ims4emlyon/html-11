@@ -42,8 +42,15 @@ h1 { display: flex ;
     gap: 10px;
 }
 
+article div div {
+    display: flex ;
+    justify-content: space-between;
+}
 
-
+.divButton  {
+    display: flex ;
+    justify-content: center;
+}
 
 footer {
     display: flex;
@@ -55,6 +62,7 @@ footer {
 article  {
     padding: 15px;
 }
+
 section {
     display: flex ;
     flex-wrap: wrap;
@@ -76,3 +84,48 @@ section {
 #imgLogo { 
     height: 56px;
 }
+
+
+#pageNoteFound {
+    font-size: 45px;
+    color: red ;
+    background-color: black;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    border: 5;
+    line-height: 2.5;
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px gray;
+    border-radius: 10px;
+    background-color: violet;
+    margin-left: 45px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+header nav{ 
+    display: flex ;
+    align-items: center ;
+}
+
+ a {
+    text-decoration: none;
+    color: black;
+}
+
+#linkCart { 
+    color: white;
+    background-color: violet;
+    border-radius: 10px;
+    padding: 11px;
+} 
