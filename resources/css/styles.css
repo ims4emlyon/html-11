@@ -150,9 +150,16 @@ article  {
 }
 
 article:hover  {
-    border: 3px solid black;
+    border: 3px solid red ;
     border-radius: 11px;
     border-color: red;
     background-color: #0000000f;
     
 }
+
+
+
+ html {   
+    height: 100%; 
+} 
+
